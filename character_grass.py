@@ -23,18 +23,22 @@ def run_rect():
     print('rect')
 
     # bottom line
-    for x in range(50, 750 + 1, 5):
-        render_frame(x,90) #x,y 위치에 화면을 그려주는 함수
+  #  for x in range(50, 750 + 1, 5):
+   #     render_frame(x,90) #x,y 위치에 화면을 그려주는 함수
 
     # top line
-    for x in range(750,50 - 1, -5):
-        render_frame(x,550)
+   # for x in range(750,50 - 1, -5):
+      #  render_frame(x,550)
 
     #right line
     for y in range(90, 550 + 1, 5):
         render_frame(750,y)
+
+    #left line
+    #for y in range(550, 90 - 1, -5):
+        #render_frame(50,y)
 while (True):
-    run_circle()
+    #run_circle()
     run_rect()
     break
     
